@@ -20,6 +20,15 @@ const CVPage = () => {
             "Developed custom invitation designs for various events, receiving consistent positive client feedback",
             "Executed promotional campaigns for herbal products, contributing to increased digital presence"
           ]
+        },
+        contributor: {
+          title: "Graphic Assets Contributor",
+          period: "2023 - Present",
+          achievements: [
+            "Created and uploaded original 3D product models and graphic design assets for online distribution",
+            "Contributed high-quality content tailored to commercial and editorial use, including product packaging, branding assets, and promotional graphics",
+            "Created and uploaded AI-generated images using various tools. Focused on high-quality visuals, prompt crafting, and keyword optimization for stock platforms"
+          ]
         }
       },
       education: {
@@ -75,6 +84,15 @@ const CVPage = () => {
             "Menghasilkan konten media sosial yang menarik dan disesuaikan dengan audiens target di berbagai platform",
             "Mengembangkan desain undangan khusus untuk berbagai acara, menerima umpan balik positif yang konsisten dari klien",
             "Melaksanakan kampanye promosi untuk produk herbal, berkontribusi pada peningkatan kehadiran digital"
+          ]
+        },
+        contributor: {
+          title: "Kontributor Aset Grafis",
+          period: "2023 - Sekarang",
+          achievements: [
+            "Membuat dan mengunggah model produk 3D original dan aset desain grafis untuk distribusi online",
+            "Berkontribusi konten berkualitas tinggi yang disesuaikan untuk penggunaan komersial dan editorial, termasuk kemasan produk, aset branding, dan grafis promosi",
+            "Membuat dan mengunggah gambar yang dihasilkan AI menggunakan berbagai alat. Fokus pada visual berkualitas tinggi, pembuatan prompt, dan optimasi kata kunci untuk platform stok"
           ]
         }
       },
@@ -219,7 +237,7 @@ const CVPage = () => {
                 <Briefcase className="w-6 h-6 text-indigo-600" />
                 {t.experience.title}
               </h2>
-              <div className="space-y-6">
+              <div className="space-y-8">
                 <motion.div variants={fadeInUpVariants}>
                   <div className="flex justify-between items-start mb-2">
                     <h3 className="text-lg font-semibold">{t.experience.freelance.title}</h3>
@@ -227,6 +245,24 @@ const CVPage = () => {
                   </div>
                   <ul className="list-disc list-inside text-gray-700 dark:text-gray-300 space-y-2 ml-4">
                     {t.experience.freelance.achievements.map((achievement, index) => (
+                      <motion.li
+                        key={index}
+                        variants={fadeInUpVariants}
+                        custom={index}
+                      >
+                        {achievement}
+                      </motion.li>
+                    ))}
+                  </ul>
+                </motion.div>
+
+                <motion.div variants={fadeInUpVariants}>
+                  <div className="flex justify-between items-start mb-2">
+                    <h3 className="text-lg font-semibold">{t.experience.contributor.title}</h3>
+                    <span className="text-sm text-gray-600 dark:text-gray-400">{t.experience.contributor.period}</span>
+                  </div>
+                  <ul className="list-disc list-inside text-gray-700 dark:text-gray-300 space-y-2 ml-4">
+                    {t.experience.contributor.achievements.map((achievement, index) => (
                       <motion.li
                         key={index}
                         variants={fadeInUpVariants}
