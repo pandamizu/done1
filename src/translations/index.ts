@@ -108,9 +108,7 @@ export const translations = {
       subtitle: 'Mari terhubung dan ciptakan sesuatu yang luar biasa bersama.',
       connect: 'Mari Terhubung',
       email: 'Email',
-      whatsapp: 'WhatsApp',
-      socialMedia: 'Media Sosial',
-      ready: 'Saya selalu tertarik mendengar tentang proyek dan peluang baru. Jangan ragu untuk menghubungi melalui salah satu saluran ini!'
+      }
     }
   }
 };

@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Mail, Phone, MapPin, Download, Award, Briefcase, GraduationCap, Users, Globe2 } from 'lucide-react';
+import { Mail, Phone, MapPin, Award, Briefcase, GraduationCap, Users, Globe2 } from 'lucide-react';
 import { useLanguage } from '../contexts/LanguageContext';
 
 const CVPage = () => {
