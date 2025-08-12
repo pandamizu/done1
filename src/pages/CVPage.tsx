@@ -52,7 +52,7 @@ const CVPage = () => {
         },
         content: {
           title: "Educational Content Creator",
-          period: "2024 - Present",
+          period: "2024 - 2025",
           details: [
             "Create and edit educational video content",
             "Develop engaging narratives and visual storytelling",
