@@ -437,7 +437,6 @@ const CVPage = () => {
               rel="noopener noreferrer"
               className="btn-primary inline-flex items-center gap-2"
             >
-              <Download className="w-5 h-5" />
               {t.downloadCV}
             </a>
           </motion.div>
