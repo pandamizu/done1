@@ -13,7 +13,7 @@ const CVPage = () => {
         title: "Professional Experience",
         freelance: {
           title: "Freelance Multimedia Designer",
-          period: "2021 - Present",
+          period: "2021 - 2025",
           achievements: [
             "Designed and produced visually compelling food packaging labels, enhancing brand visibility and market appeal",
             "Produced compelling social media content tailored to resonate with the target audience across platforms",
