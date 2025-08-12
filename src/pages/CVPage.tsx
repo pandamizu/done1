@@ -23,7 +23,7 @@ const CVPage = () => {
         },
         contributor: {
           title: "Graphic Assets Contributor",
-          period: "2023 - 2025",
+          period: "2024 - 2025",
           achievements: [
             "Created and uploaded original 3D product models and graphic design assets for online distribution",
             "Contributed high-quality content tailored to commercial and editorial use, including product packaging, branding assets, and promotional graphics",
